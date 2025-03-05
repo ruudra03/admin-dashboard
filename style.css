@@ -1,0 +1,30 @@
+/* Use border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #f9fafb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+}
+
+span {
+  display: inline-block;
+}
